@@ -45,7 +45,8 @@ public class SampleActivity extends AppCompatActivity {
         IjkMediaPlayer.loadLibrariesOnce(null);
         IjkMediaPlayer.native_profileBegin("libijkplayer.so");
 
-        ijkVideoView.setVideoURI(Uri.parse("rtsp://10.19.141.4:554/openUrl/5E01Kta"));
+//        ijkVideoView.setVideoURI(Uri.parse("rtsp://10.19.141.4:554/openUrl/5E01Kta"));
+        ijkVideoView.setVideoURI(Uri.parse("rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov"));
         ijkVideoView.setMediaController(mMediaController);
         ijkVideoView.setHudView(mHudView);
         ijkVideoView.start();
